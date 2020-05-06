@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ActiveGame = () => {
+const ActiveGame = ({game}) => {
     return(
         <React.Fragment>
-            game
+            {game.tableNumber}
         </React.Fragment>
     )
 }
